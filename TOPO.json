@@ -713,6 +713,14 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/b4f79aae35d3445e452159b9f2fc34a62ec1389e65c4294660ef136eac966762_Playing Card_Spades Q.png",
           "name": "Playing Card_Spades Q.png"
         }
+      },
+      {
+        "file": "assets/PlayerZone.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PlayerZone",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -3407,6 +3415,74 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PlayerZone",
+          "persistentUuid": "2a6ba788-451c-4143-8e87-2f0e26ad9419",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "PlayerZone",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "PlayerZone",
+                      "points": [
+                        {
+                          "name": "CardSpawn",
+                          "x": 2.5,
+                          "y": 28.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 64,
+                            "y": 20
+                          },
+                          {
+                            "x": 64,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -3414,6 +3490,9 @@
         "children": [
           {
             "objectName": "Playing_Card"
+          },
+          {
+            "objectName": "PlayerZone"
           }
         ]
       },
@@ -3485,7 +3564,32 @@
           ]
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        }
+      ]
     },
     {
       "b": 255,
