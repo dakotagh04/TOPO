@@ -1,0 +1,3477 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 261,
+    "major": 5,
+    "minor": 6,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "56f92363-4e6e-4c15-8787-3f3e5b19563b",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "version": "1.0.0",
+    "name": "TOPO",
+    "description": "",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [
+      "mobile"
+    ],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/Playing Card_Back Blue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Back Blue.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/8647af948a5336bfc538cfa50374575870c8f7f4630bba90ce7671bb7c461393_Playing Card_Back Blue.png",
+          "name": "Playing Card_Back Blue.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Back Red.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Back Red.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/54d56f6898b85218fe4edae3f0d4b90e813076bd1606bd2fde044a3332ecb819_Playing Card_Back Red.png",
+          "name": "Playing Card_Back Red.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Clubs 02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Clubs 02.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/e2c829d08d4e8e05a52aef2e52a7023f9028447743c70d6cc97d7a19451afbfa_Playing Card_Clubs 02.png",
+          "name": "Playing Card_Clubs 02.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Clubs 03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Clubs 03.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/279730408443b5b1a840a138c338c4408208c86634be79dc32689b934e1420c1_Playing Card_Clubs 03.png",
+          "name": "Playing Card_Clubs 03.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Clubs 04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Clubs 04.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/f9edd4e5c884bdbcbe05a1649a9d44428eb47fac16f3495ddb11570a2a6ae23b_Playing Card_Clubs 04.png",
+          "name": "Playing Card_Clubs 04.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Clubs 05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Clubs 05.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/7f179bfa557fbde1f5e1baf98c32733a61b0a3010df760de275487a4e747f34f_Playing Card_Clubs 05.png",
+          "name": "Playing Card_Clubs 05.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Clubs 06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Clubs 06.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/6a5ef15d861b90345160cca363bdc4d5c98a652949306181e80135901c80a641_Playing Card_Clubs 06.png",
+          "name": "Playing Card_Clubs 06.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Clubs 07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Clubs 07.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/16a947b4a55466d50731dba4a4b2ad62cbc2cbc0dbe9decc1457eede2cb47971_Playing Card_Clubs 07.png",
+          "name": "Playing Card_Clubs 07.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Clubs 08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Clubs 08.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/f1535bd7c38c449a1a6be2ee6958ebf509a848911d547a70feab8cef9d24b00a_Playing Card_Clubs 08.png",
+          "name": "Playing Card_Clubs 08.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Clubs 09.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Clubs 09.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/4c825e70e53e47d2a811520615c5720f58f87197e7a78ea975c1efd409c21594_Playing Card_Clubs 09.png",
+          "name": "Playing Card_Clubs 09.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Clubs 10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Clubs 10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/edb2537f53eada93296e73c8d045846e3f44877df92147c00c26fab8aadc70e4_Playing Card_Clubs 10.png",
+          "name": "Playing Card_Clubs 10.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Clubs A.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Clubs A.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/c49ee93ebb6fe3310c90d0b3feaad871047789d7c2b3fd9742d27107238c5a0c_Playing Card_Clubs A.png",
+          "name": "Playing Card_Clubs A.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Clubs J.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Clubs J.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/fbb11f1e48ea98f7319b6edbb70afde84e10cd936754394559426df62babfe15_Playing Card_Clubs J.png",
+          "name": "Playing Card_Clubs J.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Clubs K.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Clubs K.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/bcbf8ddaff8ccd91b3406cac680edb04d0003e6bd69c56d82db2e7129908cba5_Playing Card_Clubs K.png",
+          "name": "Playing Card_Clubs K.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Clubs Q.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Clubs Q.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/adf7c8e026497931c89c13ad700103102d1b2ea15afa0a6ea2246b2c54f4decb_Playing Card_Clubs Q.png",
+          "name": "Playing Card_Clubs Q.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Diamonds 01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Diamonds 01.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/18bf650403778e1c214735d1a37b2bca1ae0a7c4ba7706a6f97fc5c5e29c46df_Playing Card_Diamonds 01.png",
+          "name": "Playing Card_Diamonds 01.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Diamonds 02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Diamonds 02.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/c8d8029ad35abb1bf9ea4bf344d08009920fe6b5b27dc875a50c653b322beb9a_Playing Card_Diamonds 02.png",
+          "name": "Playing Card_Diamonds 02.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Diamonds 03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Diamonds 03.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/f2e1ec260c441e7ded14cc8816863a0d606aa3b1a685180141433acd3f2dbf3b_Playing Card_Diamonds 03.png",
+          "name": "Playing Card_Diamonds 03.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Diamonds 04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Diamonds 04.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/d04031e8e309a42085c23389a4cf365aab6cafb4e7d121e18607cbd1f0aad592_Playing Card_Diamonds 04.png",
+          "name": "Playing Card_Diamonds 04.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Diamonds 05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Diamonds 05.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/ffc8db05aa166666d819b81963794655eab0d43c7e474dfa449df8564ee49abb_Playing Card_Diamonds 05.png",
+          "name": "Playing Card_Diamonds 05.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Diamonds 06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Diamonds 06.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/9c1b318e9091886329400109a12c69633a383d3b265af91582eaf7f0037d5397_Playing Card_Diamonds 06.png",
+          "name": "Playing Card_Diamonds 06.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Diamonds 07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Diamonds 07.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/c2999fc6672ecf9a5d3941762cde7f3895c5a800cfc2cdbd05842051ec0dbbc7_Playing Card_Diamonds 07.png",
+          "name": "Playing Card_Diamonds 07.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Diamonds 08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Diamonds 08.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/aeb885d5c5d212918b4e6df83f1dc78cd2a78ab9883f6f02b5a9a63df79b677e_Playing Card_Diamonds 08.png",
+          "name": "Playing Card_Diamonds 08.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Diamonds 09.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Diamonds 09.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/f0fa683d0b579ff4d56b9fe05c95f7d40ababa51196e8bd73d5072aa993cee18_Playing Card_Diamonds 09.png",
+          "name": "Playing Card_Diamonds 09.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Diamonds 10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Diamonds 10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/b5f09459a282a49cdc560e21894585d5ff557d386615ea0e3e199903ee9cc0dd_Playing Card_Diamonds 10.png",
+          "name": "Playing Card_Diamonds 10.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Diamonds J.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Diamonds J.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/16d3bba74ad4c22ab70e6612ef3bc9545e98b4e6b822c3c2b8c3d6741d7d2399_Playing Card_Diamonds J.png",
+          "name": "Playing Card_Diamonds J.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Diamonds K.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Diamonds K.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/080e2f1aa04067576a6f0d435223bb6caf5049dcb3f0569d745ebd44810ee146_Playing Card_Diamonds K.png",
+          "name": "Playing Card_Diamonds K.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Diamonds Q.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Diamonds Q.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/c768763f536b82d8e056ddd3263145518c65fccf0f30a880b34847a9c4fb1301_Playing Card_Diamonds Q.png",
+          "name": "Playing Card_Diamonds Q.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Hearts 02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Hearts 02.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/b2a17e90a212a6cad2e3f9a077777076dafe3de3bf6e3d401908cc19659fa606_Playing Card_Hearts 02.png",
+          "name": "Playing Card_Hearts 02.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Hearts 03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Hearts 03.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/28741ee42c0258d784420a86a35f5941414479f48d7f518a7f0fd241aa84b36b_Playing Card_Hearts 03.png",
+          "name": "Playing Card_Hearts 03.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Hearts 04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Hearts 04.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/14da26921165915ffee37f26c29245596d7af2d7733717c3c5787180d3aa188d_Playing Card_Hearts 04.png",
+          "name": "Playing Card_Hearts 04.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Hearts 05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Hearts 05.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/18075b2463244b39821fca770ce2b3cd26397d63df2be0e60b54cc989ef41cf8_Playing Card_Hearts 05.png",
+          "name": "Playing Card_Hearts 05.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Hearts 06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Hearts 06.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/330025cdc0f1e23fefb39c57ff28e65a51da101e54f2957998c8cf48eda3824f_Playing Card_Hearts 06.png",
+          "name": "Playing Card_Hearts 06.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Hearts 07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Hearts 07.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/3de923d8aa98b40da6421ab2d09f7d8992a9d4913b3e92c7d305edd717cf8c69_Playing Card_Hearts 07.png",
+          "name": "Playing Card_Hearts 07.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Hearts 08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Hearts 08.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/617a14167d80f295f606bf0c28ff23f29315e0288d29a24a26187f0665cc24b2_Playing Card_Hearts 08.png",
+          "name": "Playing Card_Hearts 08.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Hearts 09.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Hearts 09.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/d112b305225d7c8add70397c8b81c5d1a6594e67d00067dadbcf3f40e01bfe6e_Playing Card_Hearts 09.png",
+          "name": "Playing Card_Hearts 09.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Hearts 10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Hearts 10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/5f8b969acde7b4e1a4c19052da3bfdabe6bf21489d667d3055cab347ef008ad3_Playing Card_Hearts 10.png",
+          "name": "Playing Card_Hearts 10.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Hearts A.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Hearts A.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/7154c05e360e1f3e52ec0e2fed03aaabac1ebe055a06442217f39a2b4250f90d_Playing Card_Hearts A.png",
+          "name": "Playing Card_Hearts A.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Hearts J.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Hearts J.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/15769f67c8969660d43679843f777207f94452de91d2f623ead40ca780d12645_Playing Card_Hearts J.png",
+          "name": "Playing Card_Hearts J.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Hearts K.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Hearts K.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/ec57bde02a43f20f8965ad69ac5e90f62a772b5b562863bf65e53708f5f5c620_Playing Card_Hearts K.png",
+          "name": "Playing Card_Hearts K.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Hearts Q.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Hearts Q.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/40188721d86ac09c51435a9ac5ec8d2313be53d594d2b6a74a6c2029ebcd61c7_Playing Card_Hearts Q.png",
+          "name": "Playing Card_Hearts Q.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Spades 02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Spades 02.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/0c04ac306e92ca482ac7a9d41614c904b93331df630889a32887562752340bc4_Playing Card_Spades 02.png",
+          "name": "Playing Card_Spades 02.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Spades 03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Spades 03.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/0285808fd7645be2a0585ee48d6f5115b90823587bbb8c1e43a23a4b1d14809d_Playing Card_Spades 03.png",
+          "name": "Playing Card_Spades 03.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Spades 04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Spades 04.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/d8fb4d10199ad9f1ebb1c50677c4bf4b12032666620c4dbca8a5f940b01a3407_Playing Card_Spades 04.png",
+          "name": "Playing Card_Spades 04.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Spades 05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Spades 05.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/b70f23699d82f13ec6207175bda11fb49e24bb261d1eb1b8d40969216d8d253d_Playing Card_Spades 05.png",
+          "name": "Playing Card_Spades 05.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Spades 06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Spades 06.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/4ca1482dccf29bd0492ccb976e70c93a44ca3d09491527db6feee80bcbbedaaf_Playing Card_Spades 06.png",
+          "name": "Playing Card_Spades 06.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Spades 07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Spades 07.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/5d4aed5a00658dc80ed2f4c4ad3c95dcd2246da4b3b49317ea84e983ffcceb8f_Playing Card_Spades 07.png",
+          "name": "Playing Card_Spades 07.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Spades 08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Spades 08.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/1a26c5ea89b112e4980c15297be57cf425404bd29b5d209327f0eb136b3382d4_Playing Card_Spades 08.png",
+          "name": "Playing Card_Spades 08.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Spades 09.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Spades 09.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/c05d0bc6038dcb511c1434d0b810ef435b91f42ad25a22eae5be24ac692ebcf3_Playing Card_Spades 09.png",
+          "name": "Playing Card_Spades 09.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Spades 10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Spades 10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/b1a2d1f42d27730a32b666ad7d442e86764a157e119e05a0468e428522f213db_Playing Card_Spades 10.png",
+          "name": "Playing Card_Spades 10.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Spades A.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Spades A.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/c0d8b08da45d2d50b67efeb5ef558f6dab2cf1157012e13b655b1e8de1436ad8_Playing Card_Spades A.png",
+          "name": "Playing Card_Spades A.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Spades J.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Spades J.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/972471295c3b41a83c6e186406b1f677f9b9577d8cfa94c12470d2b3f5a2e5c4_Playing Card_Spades J.png",
+          "name": "Playing Card_Spades J.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Spades K.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Spades K.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/06b029da5137a4061c25353fac5b91084a4fdc236a7b6669a9acca4deaeb3836_Playing Card_Spades K.png",
+          "name": "Playing Card_Spades K.png"
+        }
+      },
+      {
+        "file": "assets/Playing Card_Spades Q.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card_Spades Q.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/b4f79aae35d3445e452159b9f2fc34a62ec1389e65c4294660ef136eac966762_Playing Card_Spades Q.png",
+          "name": "Playing Card_Spades Q.png"
+        }
+      }
+    ]
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 255,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "GameScene",
+      "name": "GameScene",
+      "r": 247,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 249,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.546875,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Playing_Card",
+          "persistentUuid": "0f714cda-b26a-4256-9c63-1796742099a3",
+          "width": 0,
+          "x": 193,
+          "y": 326,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Playing_Card",
+          "persistentUuid": "d51a4e14-cd63-49e9-9ad9-871844c4e47f",
+          "width": 0,
+          "x": 906,
+          "y": 295,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "19cabb5945050de44ac847853039c1d7f1238f24a10c762e0e3671ea050fb6f4",
+          "name": "Playing_Card",
+          "persistentUuid": "05d42f6c-faad-499a-8ea3-953d1d351c02",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Back Blue",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Back Blue.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Back Red",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Back Red.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Clubs 02",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Clubs 02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Clubs 03",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Clubs 03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Clubs 04",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Clubs 04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Clubs 05",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Clubs 05.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Clubs 06",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Clubs 06.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Clubs 07",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Clubs 07.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Clubs 08",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Clubs 08.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Clubs 09",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Clubs 09.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Clubs 10",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Clubs 10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Clubs A",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Clubs A.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Clubs J",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Clubs J.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Clubs K",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Clubs K.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Clubs Q",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Clubs Q.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Diamonds 01",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Diamonds 01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Diamonds 02",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Diamonds 02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Diamonds 03",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Diamonds 03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Diamonds 04",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Diamonds 04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Diamonds 05",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Diamonds 05.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Diamonds 06",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Diamonds 06.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Diamonds 07",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Diamonds 07.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Diamonds 08",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Diamonds 08.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Diamonds 09",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Diamonds 09.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Diamonds 10",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Diamonds 10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Diamonds J",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Diamonds J.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Diamonds K",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Diamonds K.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Diamonds Q",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Diamonds Q.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hearts 02",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Hearts 02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hearts 03",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Hearts 03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hearts 04",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Hearts 04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hearts 05",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Hearts 05.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hearts 06",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Hearts 06.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hearts 07",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Hearts 07.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hearts 08",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Hearts 08.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hearts 09",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Hearts 09.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hearts 10",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Hearts 10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hearts A",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Hearts A.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hearts J",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Hearts J.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hearts K",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Hearts K.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hearts Q",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Hearts Q.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Spades 02",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Spades 02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Spades 03",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Spades 03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Spades 04",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Spades 04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Spades 05",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Spades 05.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Spades 06",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Spades 06.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Spades 07",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Spades 07.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Spades 08",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Spades 08.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Spades 09",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Spades 09.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Spades 10",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Spades 10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Spades A",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Spades A.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Spades J",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Spades J.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Spades K",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Spades K.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Spades Q",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Playing Card_Spades Q.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 124
+                          },
+                          {
+                            "x": 0,
+                            "y": 124
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Playing_Card"
+          }
+        ]
+      },
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": []
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": []
+}
