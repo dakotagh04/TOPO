@@ -784,6 +784,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Playing_Card",
+          "persistentUuid": "15af2a7d-9b2c-49a0-b23e-24fe93bcd083",
+          "width": 0,
+          "x": 555,
+          "y": 303,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
