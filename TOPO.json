@@ -808,6 +808,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 11,
+          "height": 657,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlayerZone",
+          "persistentUuid": "22f0fe7b-7c4b-4791-91b9-59a2e9308e00",
+          "width": 657,
+          "x": 549,
+          "y": 194,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
