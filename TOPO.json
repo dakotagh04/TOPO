@@ -715,6 +715,7 @@
         }
       },
       {
+<<<<<<< HEAD
         "file": "29b4378d-7498-4eb4-9a47-647b8b9adefb2.png",
         "kind": "image",
         "metadata": "",
@@ -732,6 +733,14 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
           "name": "gdevelop-asset-store"
         }
+=======
+        "file": "assets/PlayerZone.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PlayerZone",
+        "smoothed": true,
+        "userAdded": false
+>>>>>>> 3d1d5783fa6137beb90f979dfdb95b43c0274f56
       }
     ]
   },
@@ -816,6 +825,23 @@
           "x": 555,
           "y": 303,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 11,
+          "height": 657,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlayerZone",
+          "persistentUuid": "22f0fe7b-7c4b-4791-91b9-59a2e9308e00",
+          "width": 657,
+          "x": 549,
+          "y": 194,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3426,6 +3452,74 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PlayerZone",
+          "persistentUuid": "2a6ba788-451c-4143-8e87-2f0e26ad9419",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "PlayerZone",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "PlayerZone",
+                      "points": [
+                        {
+                          "name": "CardSpawn",
+                          "x": 2.5,
+                          "y": 28.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 64,
+                            "y": 20
+                          },
+                          {
+                            "x": 64,
+                            "y": 50
+                          },
+                          {
+                            "x": 0,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -3433,10 +3527,117 @@
         "children": [
           {
             "objectName": "Playing_Card"
+          },
+          {
+            "objectName": "PlayerZone"
           }
         ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Playing_Card",
+                "PlayerZone.X()",
+                "PlayerZone.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Playing_Card",
+                "Animation",
+                "=",
+                "\"Back Blue\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Playing_Card",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Playing_Card",
+                "Animation",
+                "=",
+                "\"Clubs A\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Playing_Card",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Playing_Card",
+                "Animation",
+                "=",
+                "\"Back Blue\""
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
