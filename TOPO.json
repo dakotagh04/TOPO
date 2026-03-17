@@ -3556,75 +3556,79 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Repeat",
-          "repeatExpression": "4",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
           "actions": [],
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "SceneJustBegins"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Playing_Card",
-                    "PlayerZone.CenterX()",
-                    "PlayerZone.CenterY()",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Playing_Card",
-                    "Animation",
-                    "=",
-                    "\"Back Blue\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
+              "type": "BuiltinCommonInstructions::Repeat",
+              "repeatExpression": "4",
               "conditions": [],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "CardIndex",
-                    "=",
-                    "0"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Playing_Card",
+                        "PlayerZone.CenterX()",
+                        "PlayerZone.CenterY()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Playing_Card",
+                        "Animation",
+                        "=",
+                        "\"Back Blue\""
+                      ]
+                    }
                   ]
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "CardIndex",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": [
             {
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "Playing_Card",
@@ -3637,7 +3641,7 @@
                   "parameters": [
                     "Playing_Card",
                     "=",
-                    "PlayerZone.CenterX() + (120 * (Variable(CardIndex) - (SceneVariable(CardCount) - 1) / 2))",
+                    "PlayerZone.CenterX() + (120 * (Variable(CardIndex) - (Count(Playing_Card) - 1) / 2))",
                     "=",
                     "PlayerZone.CenterY()"
                   ]
