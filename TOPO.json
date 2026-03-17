@@ -736,7 +736,7 @@
       {
         "file": "assets/PlayerZone.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/PlayerZone.png\"}",
         "name": "PlayerZone",
         "smoothed": true,
         "userAdded": false
@@ -778,7 +778,23 @@
         "gameEditorMode": "instances-editor"
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "CardIndex",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "CenterX",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "CardSpacing",
+          "type": "number",
+          "value": 120
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -824,8 +840,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -872,8 +888,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -920,8 +936,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -968,8 +984,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -1016,8 +1032,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -1064,8 +1080,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -1112,8 +1128,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -1160,8 +1176,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -1208,8 +1224,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -1256,8 +1272,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -1304,8 +1320,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -1352,8 +1368,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -1400,8 +1416,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -1448,8 +1464,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -1496,8 +1512,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -1544,8 +1560,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -1592,8 +1608,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -1640,8 +1656,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -1688,8 +1704,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -1736,8 +1752,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -1784,8 +1800,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -1832,8 +1848,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -1880,8 +1896,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -1928,8 +1944,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -1976,8 +1992,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -2024,8 +2040,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -2072,8 +2088,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -2120,8 +2136,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -2168,8 +2184,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -2216,8 +2232,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -2264,8 +2280,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -2312,8 +2328,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -2360,8 +2376,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -2408,8 +2424,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -2456,8 +2472,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -2504,8 +2520,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -2552,8 +2568,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -2600,8 +2616,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -2648,8 +2664,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -2696,8 +2712,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -2744,8 +2760,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -2792,8 +2808,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -2840,8 +2856,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -2888,8 +2904,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -2936,8 +2952,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -2984,8 +3000,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -3032,8 +3048,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -3080,8 +3096,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -3128,8 +3144,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -3176,8 +3192,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -3224,8 +3240,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -3272,8 +3288,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -3320,8 +3336,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -3368,8 +3384,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 62
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -3427,13 +3443,7 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "PlayerZone",
-                      "points": [
-                        {
-                          "name": "CardSpawn",
-                          "x": 3,
-                          "y": 29
-                        }
-                      ],
+                      "points": [],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -3449,19 +3459,19 @@
                         [
                           {
                             "x": 0,
-                            "y": 21
+                            "y": 17
                           },
                           {
                             "x": 64,
-                            "y": 21
+                            "y": 17
                           },
                           {
                             "x": 64,
-                            "y": 51
+                            "y": 47
                           },
                           {
                             "x": 0,
-                            "y": 51
+                            "y": 47
                           }
                         ]
                       ]
@@ -3485,50 +3495,6 @@
         ]
       },
       "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneJustBegins"
-              },
-              "parameters": [
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Playing_Card",
-                "PlayerZone.PointX(\"CardSpawn\")",
-                "PlayerZone.PointY(\"CardSpawn\")",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Playing_Card",
-                "Animation",
-                "=",
-                "\"Back Blue\""
-              ]
-            }
-          ]
-        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -3584,6 +3550,108 @@
                 "Animation",
                 "=",
                 "\"Back Blue\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Repeat",
+          "repeatExpression": "4",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustBegins"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Playing_Card",
+                    "PlayerZone.CenterX()",
+                    "PlayerZone.CenterY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Playing_Card",
+                    "Animation",
+                    "=",
+                    "\"Back Blue\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "CardIndex",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Playing_Card",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "Playing_Card",
+                    "=",
+                    "PlayerZone.CenterX() + (120 * (Variable(CardIndex) - (SceneVariable(CardCount) - 1) / 2))",
+                    "=",
+                    "PlayerZone.CenterY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "CardIndex",
+                    "+",
+                    "1"
+                  ]
+                }
               ]
             }
           ]
